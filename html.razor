@@ -1,0 +1,14 @@
+@page "/click-btn"
+
+
+<p>Hey I'm insha waheed</p>
+
+<button @onclick="ChangeName">Click Me</button>
+
+@code{
+    private string name = "Insha Waheed";
+    void ChangeName()
+    {
+        name = "Noor Waheed";
+    }
+}
