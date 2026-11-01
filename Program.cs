@@ -34,9 +34,9 @@ class Insha
         obj4.CalSI();
 
         //calling instance variable from another class
-        Variables obj1 = new Variables();
+        //Variables obj1 = new Variables();
 
-        Console.WriteLine(obj1.b);
+        //Console.WriteLine(obj1.b);
         //calling static variable from same class as of it's static variable it 
         //doesn't need an object to be created and can be called directly by using the class name
 
