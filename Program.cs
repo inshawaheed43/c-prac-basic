@@ -22,7 +22,6 @@ class Insha
 
     static void Main()
     {
-
         //its the syntax to create an object in C#
         Operation obj = new Operation();
         //obj.getNum();
@@ -32,7 +31,20 @@ class Insha
         obj.Div();
         SI obj4 = new SI();
         obj4.CalSI();
-
+        //Operation obj= new Operation();
+        ////obj.getNum();
+        ////obj.Add();
+        //obj.Sub();
+        //obj.Multi();
+        //obj.Div();
+        //SI obj = new SI();
+        //obj.CalSI();
+        //calling instance variable from another class
+        Variables obj1 = new Variables();
+        Console.WriteLine(obj1.b);
+        //calling static variable from same class as of it's static variable it 
+        //doesn't need an object to be created and can be called directly by using the class name
+        Console.WriteLine(Insha.a);
         //calling instance variable from another class
         //Variables obj1 = new Variables();
 
